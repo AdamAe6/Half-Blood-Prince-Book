@@ -13,5 +13,6 @@ Half-Blood-Prince-Book is a web application that catalogs and explores the magic
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Harry Potter API]([https://www.potterapi.com/](https://wizard-world-api.herokuapp.com/swagger/index.html)https://wizard-world-api.herokuapp.com/swagger/index.html)
+- [Harry Potter API](<[https://www.potterapi.com/](https://wizard-world-api.herokuapp.com/swagger/index.html)https://wizard-world-api.herokuapp.com/swagger/index.html>)
 
+![Screenshot 1](./screenshots/Capture%20d’écran%202024-01-17%20à%2016.12.07.png)
