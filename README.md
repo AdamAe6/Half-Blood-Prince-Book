@@ -1,31 +1,17 @@
-# React + TypeScript + Vite
+# PotionMaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Half-Blood-Prince-Book is a web application that catalogs and explores the magical potions present in the Harry Potter universe. The app is built with TypeScript, React, and styled with Tailwind CSS. It leverages the Harry Potter API to fetch potion details and provide an immersive experience for fans of the wizarding world.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Potion Catalog:** Browse a comprehensive list of potions featured in the Harry Potter series.
+- **Detailed Information:** View detailed information about each potion, including ingredients and inventors.
+- **Interactive Experience:** Dive into the magical world with a user-friendly and visually appealing interface.
 
-## Expanding the ESLint configuration
+# Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Harry Potter API]([https://www.potterapi.com/](https://wizard-world-api.herokuapp.com/swagger/index.html)https://wizard-world-api.herokuapp.com/swagger/index.html)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Half-Blood-Prince-Book
